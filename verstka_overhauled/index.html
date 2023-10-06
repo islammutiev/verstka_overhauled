@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <title>My Page</title>
+</head>
+
+<body>
+    <header class="background"> <!-- literally just header + nav menu-->
+        <nav class="container">
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="#portfolio">Портфолио</a></li>
+                <li class="menu__item"><a class="menu__link" href="#about_me">Обо мне</a></li>
+                <li class="menu__item"><a class="menu__link" href="#form">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="background"> <!-- introduction part -->
+        <div class="container introduction">
+            <div>
+                <h1 class="introduction__header">Меня зовут Ислам</h1>
+                <p class="introduction__text">Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry. </p>
+            </div>
+            <div>
+                <img class="introduction__image" src="assets/main.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="portfolio"> <!-- portfolio part -->
+        <div class="portfolio container">
+            <h1 class="portfolio__header">Портфолио</h1>
+            <div class="arrows">
+                <img class="arrows__image" src="assets/arrow_left.png" alt="">
+                <img class="arrows__image" src="assets/arrow_right.png" alt="">
+            </div>
+            <div class="template">
+                <p class="template__text">AI DIGITAL CORPORATE PRESENTATION TEMPLATE</p>
+            </div>
+            <div class="work_info">
+                <img class="work_info__image" src="assets/portfolio.png" alt="">
+                <div class="skills">
+                    <p class="skills__item">ux / ui design</p>
+                    <p class="skills__item">development</p>
+                    <p class="skills__item">adaptives for tablet and phone</p>
+                    <p class="skills__item">animation support</p>
+                    <button class="skills__button">Посмотреть</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about_me" class="background"> <!-- part about me-->
+        <div class="container">
+            <div class="about_me">
+                <div class="personal_info">
+                    <h1 class="personal_info__header">Обо мне</h1>
+                    <p class="personal_info__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="personal_photo">
+                    <img class="personal_photo__image" src="assets/about_me.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
